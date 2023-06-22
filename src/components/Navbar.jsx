@@ -5,18 +5,14 @@ export function Navbar() {
   return (
     <NavbarC
       fluid
-      class="bg-white dark:bg-gray-900 fixed w-full z-30 top-0 left-0 border-b mx-auto p-4 border-gray-200 dark:border-gray-600"
+      class="bg-white dark:bg-gray-900 fixed w-full z-30 top-0 left-0 border-b mx-auto py-4 px-4 md:px-8 border-gray-200 dark:border-gray-600"
     >
       {/* <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"> */}
-      <a href="https://flowbite.com/" class="flex items-center">
-        <img
-          src="https://flowbite.com/docs/images/logo.svg"
-          class="h-8 mr-3"
-          alt="Flowbite Logo"
-        />
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-          Flowbite
-        </span>
+      <a
+        href="#"
+        class="flex items-center text-black dark:text-white text-lg font-bold"
+      >
+        @HafizRP
       </a>
 
       <div class="flex md:order-2">
@@ -56,8 +52,8 @@ export function Navbar() {
             </a>
           </li>
           <li>
-            <a id="about-anchor" href="#about" class="nav-link">
-              About
+            <a id="projects-anchor" href="#projects" class="nav-link">
+              Projects
             </a>
           </li>
           <li>

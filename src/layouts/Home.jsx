@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import SocialComponent from "../components/Social";
 
 export function HomeSection() {
   return (
@@ -16,18 +17,18 @@ export function HomeSection() {
           Backend Developer
         </span>
         <p className="text-sm md:text-base font-light">
-          Hi, am Hafiz. I have big interest on{" "}
-          <span className="font-medium border-b">Software development</span>,
-          especially on{" "}
-          <span className="font-medium border-b">Web Development</span>. I have
-          skills in web development using Vue JS as well as building REST APIs
-          using Node JS with MYSQL, SQL Server, and MongoDB. I can adapt well
-          and have good English skills.
+          Hi, am Hafiz Rahmad Putra. I have big interest on{" "}
+          <span className="font-medium">Software development</span>, especially
+          on <span className="font-medium">Web Development</span>. I have skills
+          in web development using Vue JS as well as building REST APIs using
+          Node JS with MySQL, SQL Server, and MongoDB. I can adapt well and have
+          good English skills.
         </p>
 
+        {/* <SocialComponent></SocialComponent> */}
         <div className="flex flex-row gap-x-3 pt-5">
           <a
-            href="mailto:hafizrahmadputra213@gmail.com"
+            href="https://www.linkedin.com/in/hafizrp"
             className="border p-1 rounded-full border-black dark:border-white hover:text-blue-700 dark:hover:text-blue-400 dark:hover:border-blue-400 hover:border-blue-700 hover:transition-all hover:scale-110"
           >
             <Icon icon="mdi:linkedin" width="30"></Icon>
@@ -39,16 +40,22 @@ export function HomeSection() {
             <Icon icon="mdi:gmail" width="30"></Icon>
           </a>
           <a
-            href="mailto:hafizrahmadputra213@gmail.com"
+            href="https://github.com/HafizRP"
             className="border p-1 rounded-full border-black dark:border-white hover:text-blue-700 dark:hover:text-blue-400 dark:hover:border-blue-400 hover:border-blue-700 hover:transition-all hover:scale-110"
           >
             <Icon icon="bi:github" width="30"></Icon>
           </a>
           <a
-            href="mailto:hafizrahmadputra213@gmail.com"
+            href="https://wa.me/0895340016863"
             className="border p-1 rounded-full border-black dark:border-white hover:text-blue-700 dark:hover:text-blue-400 dark:hover:border-blue-400 hover:border-blue-700 hover:transition-all hover:scale-110"
           >
             <Icon icon="ic:outline-whatsapp" width="30"></Icon>
+          </a>
+          <a
+            href="https://t.me/HafizRP23"
+            className="border p-1 rounded-full border-black dark:border-white hover:text-blue-700 dark:hover:text-blue-400 dark:hover:border-blue-400 hover:border-blue-700 hover:transition-all hover:scale-110"
+          >
+            <Icon icon="ic:baseline-telegram" width="30"></Icon>
           </a>
         </div>
       </div>
