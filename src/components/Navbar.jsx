@@ -3,10 +3,7 @@ import { Button, Navbar as NavbarC } from "flowbite-react";
 
 export function Navbar() {
   return (
-    <NavbarC
-      fluid
-      class="bg-white dark:bg-gray-900 fixed w-full z-30 top-0 left-0 border-b mx-auto py-4 px-4 md:px-8 border-gray-200 dark:border-gray-600"
-    >
+    <NavbarC class="bg-white dark:bg-gray-900 fixed w-full z-30 top-0 left-0 border-b mx-auto py-4 px-4 md:px-8 border-gray-200 dark:border-gray-600">
       {/* <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"> */}
       <a
         href="#"
@@ -70,5 +67,31 @@ export function Navbar() {
       </NavbarC.Collapse>
       {/* </div> */}
     </NavbarC>
+
+    // <NavbarC fluid rounded>
+    //   <NavbarC.Brand href="https://flowbite-react.com">
+    //     <img
+    //       alt="Flowbite React Logo"
+    //       className="mr-3 h-6 sm:h-9"
+    //       src="/vite.svg"
+    //     />
+    //     {/* <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+    //       Flowbite React
+    //     </span> */}
+    //   </NavbarC.Brand>
+    //   <div className="flex md:order-2">
+    //     <Button>Get started</Button>
+    //     <NavbarC.Toggle />
+    //   </div>
+    //   <NavbarC.Collapse>
+    //     <NavbarC.Link active href="#">
+    //       <p>Home</p>
+    //     </NavbarC.Link>
+    //     <NavbarC.Link href="#">About</NavbarC.Link>
+    //     <NavbarC.Link href="#">Services</NavbarC.Link>
+    //     <NavbarC.Link href="#">Pricing</NavbarC.Link>
+    //     <NavbarC.Link href="#">Contact</NavbarC.Link>
+    //   </NavbarC.Collapse>
+    // </NavbarC>
   );
 }

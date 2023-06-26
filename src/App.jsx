@@ -50,30 +50,30 @@ function App() {
 
       <section
         id="home"
-        className="scroll-m-20 h-screen md:scroll-m-24 bg-gray-200 dark:bg-gray-800 dark:text-white"
+        className="scroll-m-0 h-screen md:scroll-m-24 bg-gray-200 dark:bg-gray-800 dark:text-white"
       >
         <HomeSection></HomeSection>
       </section>
       <section
         id="projects"
-        className="h-screen pt-6 scroll-m-20 md:scroll-m-24 dark:bg-gray-900"
+        className="h-screen md:my-6 scroll-m-20 dark:bg-gray-900"
       >
         <PortofolioSection></PortofolioSection>
       </section>
 
-      <section id="skills" className="h-screen scroll-m-20 md:scroll-m-24">
+      <section id="skills" className="h-screen scroll-m-20">
         <SkillsSection></SkillsSection>
       </section>
 
       <section
         id="experiences"
-        className="h-screen scroll-m-20 md:scroll-m-24 dark:text-white"
+        className="h-screen scroll-m-20 dark:text-white"
       >
         <ContactSection></ContactSection>
       </section>
 
-      <footer class="bg-white rounded-lg shadow dark:bg-gray-800">
-        <div class="w-full flex flex-col mx-auto max-w-screen-xl gap-y-4 p-4 md:flex-row md:items-center md:justify-between">
+      <footer class="bg-white border-t dark:border-gray-600 shadow dark:bg-gray-800">
+        <div class="w-full flex flex-col mx-auto max-w-screen-xl gap-y-5 p-4 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-row justify-center gap-x-3 dark:text-white">
             <a
               href="https://www.linkedin.com/in/hafizrp"
@@ -94,7 +94,7 @@ function App() {
               <Icon icon="bi:github" width="30"></Icon>
             </a>
             <a
-              href="https://wa.me/0895340016863"
+              href="https://wa.me/+62895340016863"
               className="border p-1 rounded-full border-black dark:border-white hover:text-blue-700 dark:hover:text-blue-400 dark:hover:border-blue-400 hover:border-blue-700 hover:transition-all hover:scale-110"
             >
               <Icon icon="ic:outline-whatsapp" width="30"></Icon>
@@ -108,7 +108,7 @@ function App() {
           </div>
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 block md:text-start text-center">
             Created by{" "}
-            <span className="text-blue-700 dark:text-blue-400">
+            <span className="text-blue-700 dark:text-blue-400 font-semibold">
               Hafiz Rahmad Putra
             </span>
           </span>

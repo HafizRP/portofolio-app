@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 export default function ContactSection() {
   return (
     <div className="container px-4 md:px-8 mx-auto">
-      <span className="text-xl font-semibold">
+      <span className="text-2xl font-bold block py-5">
         <span className="border-b-2 border-blue-400 dark:border-blue-700">
           Experi
         </span>
@@ -11,7 +11,7 @@ export default function ContactSection() {
       </span>
 
       <ol
-        class="relative border-l mt-3 border-gray-200 dark:border-gray-700"
+        class="relative border-l border-gray-200 dark:border-gray-700 overflow-x-hidden"
         data-aos="fade-up"
       >
         <li class="mb-10 ml-4">
@@ -19,12 +19,17 @@ export default function ContactSection() {
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
             Feb 2022 - Dec 2022
           </time>
-          <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-            Web Developer (Internship)
+          <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+            PT Toho Technology (Internship)
           </h3>
-          <p class="mb-4 text-sm md:text-base font-normal text-gray-500 dark:text-gray-400">
+
+          <p className="text-base font-medium">
+            Web Developer, Mechanical Support
+          </p>
+          <p class="mb-4 text-sm w-full md:w-9/12 md:text-md text-justify md:text-start font-normal text-gray-500 dark:text-gray-400">
             Creating Web Apps for monitoring and logging data from PLC to
-            Database and create summary about the data via chart
+            Database and create summary about the data via chart. Also helping
+            Engineering Division for wiring when needed.
           </p>
 
           <div className="flex flex-wrap gap-y-2 flex-row md:gap-x-3">

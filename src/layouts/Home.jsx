@@ -3,7 +3,7 @@ import SocialComponent from "../components/Social";
 
 export function HomeSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 place-items-center h-full container pt-20 px-4 md:px-16 mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 pt-10 overflow-x-hidden h-full place-items-center container px-4 md:px-16 mx-auto">
       <div data-aos="fade-left" data-aos-duration="1500">
         <img
           className="profile-img rounded-3xl"
@@ -46,7 +46,7 @@ export function HomeSection() {
             <Icon icon="bi:github" width="30"></Icon>
           </a>
           <a
-            href="https://wa.me/0895340016863"
+            href="https://wa.me/+62895340016863"
             className="border p-1 rounded-full border-black dark:border-white hover:text-blue-700 dark:hover:text-blue-400 dark:hover:border-blue-400 hover:border-blue-700 hover:transition-all hover:scale-110"
           >
             <Icon icon="ic:outline-whatsapp" width="30"></Icon>

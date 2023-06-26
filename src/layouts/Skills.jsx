@@ -1,15 +1,15 @@
 import { Tooltip } from "flowbite-react";
 export default function SkillsSection() {
   return (
-    <div className="container px-4 md:px-8 mx-auto dark:text-white dark:bg-gray-900">
-      <span className="text-xl font-semibold">
+    <div className="container px-4 md:px-8 mx-auto dark:text-white dark:bg-gray-900 overflow-x-hidden">
+      <span className="text-2xl block font-semibold py-5">
         <span className="border-b-2 border-blue-400 dark:border-blue-700">
           Ski
         </span>
         lls
       </span>
 
-      <div className="grid grid-cols-2 pt-10 md:grid-cols-3 place-items-center gap-y-10">
+      <div className="grid grid-cols-2 my-10 md:grid-cols-3 place-items-center gap-y-10">
         <Tooltip content="Intermediate">
           <img
             src="/vue.png"
